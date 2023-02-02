@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+*{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.container a{
+    width: auto;
+    display: flex;
+    text-decoration: none;
+    background-color: #1d1d1f;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    color: white;
+}
+li:hover{
+   
+    color: rgb(155, 150, 150);
+    border-radius: 3px;
+}
+.logo{   
+    margin-left: 200px;
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.pesquisar{
+   
+    margin-right: 50px;
+}
+.pesquisar img{
+    width: 20px;
+    height: 20px;
+
+}
+.comprar{
+    margin-right: 200px;
+}
+.comprar img{
+    width: 20px;
+    height: 20px;
+
+}
+.saleText a{
+    color: #1d1d1f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.saleText h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.saleText h2{
+    margin-top: 10px;
+    font-weight: 100;
+}
+.saleText h3{
+    font-size: 15px;
+    margin-top: 10px;    
+    color: #2997ff;
+    font-weight: 50;
+}
+.saleText h3 img{
+    width: 20px;
+    height: 20px;
+    
+}
+.ProductImg{
+    display: flex;
+    justify-content: center;
+}
+.ProductImg img{
+    margin-top: 50px;
+    width: 800px;  
+}
+.textArea {
+    display: inline-block;
+    position: relative;
+}
+.textArea h1{
+    color: #1d1d1f;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    top: 3px;
+    margin-left: 120px ;
+   
+}
+.textArea h2{
+    position: absolute;
+    color: #4c4c52;
+    font-size: 14px;
+    font-weight: 100;
+    left: 5px;
+    bottom: 5px;
+      
+}
+.textArea img{
+    
+    width: 300px;
+    height: 200px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}

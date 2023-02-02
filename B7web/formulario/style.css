@@ -1,0 +1,74 @@
+*{
+margin: 0;
+}
+.login{
+    background-color: rgb(246, 236, 224);
+    width: 488px;
+    height: 418px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid cadetblue;    
+    display: flex;  
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color: cadetblue;
+}
+.line{
+    border-bottom: 2px solid rgb(155, 195, 197);
+    margin: 30px;
+}
+label{
+    margin-left: 30px;
+    color: rgb(102, 153, 153);
+    
+}
+input{
+    color: rgb(196, 193, 189);
+    margin-left: 30px;    
+    width: 400px;
+    border-style: hidden;
+    border-radius: 3px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   justify-items: flex-start;      
+}
+#chek{
+  margin: -192px;
+}
+#logar{
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background-color: cadetblue;
+    border-radius: 3px;
+    border: none;       
+}
+#cadastro{
+    color: cadetblue;
+    height: 30px;
+    background-color:rgb(240, 245, 245) ;
+    border-radius: 3px;
+    border-color: burlywood;
+    margin-bottom: 10px;
+    
+}
+.line2{
+    border: 1px solid rgb(155, 195, 197);
+    margin-bottom: 10px;
+}
+.cadastroText{ 
+       
+    margin-left: 205px;
+    color: rgb(102, 153, 153);   
+ }
